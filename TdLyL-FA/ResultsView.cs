@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace TdLyL_FA
 {
-    public partial class Form2 : Form
+    public partial class ResultsView : Form
     {
         bool deterministico;
         AFD automata;
         int col, row;
         string hilera;
-        public Form2(AFD automata, bool deterministico)
+        public ResultsView(AFD automata, bool deterministico)
         {
             this.automata = automata;
             this.deterministico = deterministico;

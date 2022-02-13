@@ -16,7 +16,7 @@ namespace TdLyL_FA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new InputView());
         }
     }
 }

@@ -201,7 +201,7 @@ namespace TdLyL_FA
                     automata.setEstados(tuplaTrans.Item2);
                 }
                 automata.deleteRareStates();
-                Form2 fm = new Form2(automata, deterministico);
+                ResultsView fm = new ResultsView(automata, deterministico);
                 fm.Show();
                 this.Hide();
             }

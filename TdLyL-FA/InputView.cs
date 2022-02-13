@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace TdLyL_FA
 {
-    public partial class Form1 : Form
+    public partial class InputView : Form
     {
         bool deterministico = true;
         Form3 fm3;
-        public Form1()
+        public InputView()
         {
             InitializeComponent();
         }

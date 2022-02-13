@@ -1,6 +1,6 @@
 ﻿namespace TdLyL_FA
 {
-    partial class Form2
+    partial class ResultsView
     {
         /// <summary>
         /// Required designer variable.
@@ -122,7 +122,7 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Autómata simplificado";
             // 
-            // Form2
+            // ResultsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,8 +135,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Autómata";
+            this.Name = "ResultsView";
+            this.Text = "Resultados";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
